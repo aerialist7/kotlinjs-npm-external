@@ -4,7 +4,7 @@
 gradle wrapper
 ```
 
-## Build
+## Bootstrap
 ```
-./gradlew build
+./gradlew clean build
 ```
