@@ -3,3 +3,8 @@
 ```
 gradle wrapper
 ```
+
+## Build
+```
+./gradlew build
+```
