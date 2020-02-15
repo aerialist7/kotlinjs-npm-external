@@ -13,6 +13,8 @@ kotlin {
             dependencies {
                 implementation(kotlin("stdlib-js"))
 
+                implementation(project(":jspdf-yworks"))
+
                 implementation(npm("svg2pdf.js"))
             }
         }
