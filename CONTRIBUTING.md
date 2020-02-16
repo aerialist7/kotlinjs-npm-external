@@ -1,10 +1,15 @@
 # Development
-## Initial configuration
+## Initialization
 ```
 gradle wrapper
 ```
 
-## Bootstrap
+## Deployment
 ```
 ./gradlew clean build
+```
+
+## Demonstration
+```
+./gradlew -t :demo-stand:run
 ```
