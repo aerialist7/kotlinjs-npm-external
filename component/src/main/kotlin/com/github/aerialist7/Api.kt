@@ -1,11 +1,11 @@
 package com.github.aerialist7
 
-import org.w3c.dom.HTMLElement
+import org.w3c.dom.HTMLDivElement
+import kotlin.browser.document
 
 object Api {
     @JsName("HelloWorldComponent")
-    fun create(): HTMLElement {
-        console.log("Hello from HelloWorldComponent!")
-        return js("({})") as HTMLElement
-    }
+    fun create() = document.createElement("div")
+        .unsafeCast<HTMLDivElement>()
+        .apply { textContent = "Hello, World!" }
 }
