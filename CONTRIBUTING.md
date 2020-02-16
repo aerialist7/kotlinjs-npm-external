@@ -11,5 +11,5 @@ gradle wrapper
 
 ## Demonstration
 ```
-./gradlew -t :demo-stand:run
+./gradlew -t :dev-server:run
 ```
