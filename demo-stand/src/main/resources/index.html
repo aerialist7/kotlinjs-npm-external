@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Page</title>
+    <script src="component.js"></script>
+</head>
+<body>
+<div id="component-container"></div>
+<script type="text/javascript">
+    const component = new HelloWorldComponent()
+    window.component = component
+    document.getElementById("component-container").appendChild(component);
+</script>
+</body>
+</html>

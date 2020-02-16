@@ -10,3 +10,4 @@ pluginManagement {
 include("jspdf-yworks")
 include("svg-to-pdf")
 include("component")
+include("demo-stand")
